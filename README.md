@@ -1,18 +1,14 @@
 
 
-## Not working!! ##
+## Quick start ##
 
-
+     $ git clone https://github.com/mstn/infinite-scroll-demo.git
+     $ cd infinite-scroll-demo
+     $ meteor add mstn:cat
+     $ meteor
 
 ## Infinite scroll with components ##
 
-This example is based
+This demo is based
 on the pattern [template level subscriptions](https://www.discovermeteor.com/blog/template-level-subscriptions/)
-
-
-## Credits ##
-
-API are inspired by
-
-* https://github.com/meteorhacks/flow-components
-* https://github.com/stubailo/meteor-components
+and related example.
