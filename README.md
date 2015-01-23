@@ -12,3 +12,6 @@
 This demo is based
 on the pattern [template level subscriptions](https://www.discovermeteor.com/blog/template-level-subscriptions/)
 and related example.
+
+[Demo](http://cat-infinite-scroll.meteor.com/)
+
