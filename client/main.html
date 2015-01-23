@@ -1,0 +1,36 @@
+<head>
+  <title>Template-Level Subscriptions</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div id="posts"></div>
+      </div>
+      <div class="col-md-6">
+        <div id="cats"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<template name="infinite-scroll">
+
+  <h1>{{title}}</h1>
+  <hr>
+  {{#each items}}
+  <div class="post">
+    <h3>{{title}}</h3>
+    <p>{{body}}</p>
+  </div>
+  {{/each}}
+  {{#if ready}}
+    {{#if hasMoreItems}}
+    <a class="load-more" href="#">Load More</a>
+    {{/if}}
+  {{else}}
+    <div class="loading">{{>spinner}}</div>
+  {{/if}}
+</template>

@@ -1,0 +1,6 @@
+[submodule "packages"]
+	path = packages
+	url = http://github.com/mstn/cat
+[submodule "packages/mstn:cat"]
+	path = packages/mstn:cat
+	url = http://github.com/mstn/cat
