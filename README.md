@@ -11,7 +11,7 @@
 
 This demo is based
 on the pattern [template level subscriptions](https://www.discovermeteor.com/blog/template-level-subscriptions/)
-and related example.
+and [related example](http://meteorpad.com/pad/JNMvanxS3f4BK7S5x/Template-Level%20Subs). I did minor changes to the original logic in order to fit the api.
 
 [Demo](http://cat-infinite-scroll.meteor.com/)
 
